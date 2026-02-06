@@ -19,7 +19,7 @@ AutoCleanML automatically cleans and prepares your messy data for machine learni
 ```python
 from autocleanml import AutoCleanML
 
-cleaner = AutoCleanML(target="Price")
+cleaner = AutoCleanML(target="target_col")
 X_train, X_test, y_train, y_test, report = cleaner.fit_transform(df)
 
 # Done! Your data is ready for any model

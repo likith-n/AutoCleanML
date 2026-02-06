@@ -35,7 +35,7 @@ Alternative (Advanced):
 >>> pipeline = AutoCleanPipeline(target_col="target", model_type="xgboost")
 >>> clean_train, clean_test = pipeline.clean(df)
 
-For more information, visit: https://github.com/LikithN/AutoCleanML
+For more information, visit: https://github.com/likith-n/AutoCleanML
 """
 
 from autocleanml.main import AutoCleanML
