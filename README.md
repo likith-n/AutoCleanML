@@ -45,11 +45,28 @@ X_train, X_test, y_train, y_test, report = cleaner.fit_transform(df)
 
 ## Installation
 
+## 📦 Installation
+
+AutoCleanML can be installed using `pip` and works seamlessly on **local machines, Jupyter Notebook, and Google Colab**.
+
 ```bash
-pip install -e .
+pip install autocleanml
 ```
 
----
+To upgrade to the latest version:
+```bash
+pip install --upgrade autocleanml
+```
+
+After installation, import the library:
+```python
+from autocleanml import AutoCleanML
+```
+
+> **Note:**  
+> If you are using Jupyter Notebook or Google Colab, run the installation command in a notebook cell using  
+> `!pip install autocleanml` and restart the kernel if required.
+
 
 ## Quick Start
 
