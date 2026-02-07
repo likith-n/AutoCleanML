@@ -321,8 +321,12 @@ pickle.dump(model, open('model.pkl', 'wb'))
 cleaner = pickle.load(open('cleaner.pkl', 'rb'))
 model = pickle.load(open('model.pkl', 'rb'))
 
+new_data['price'] = 0
+
+
 # Clean new data the same way
 new_data_clean = cleaner.transform(new_data)
+new_data_clean = new_data_clean.drop(columns=['price'])
 predictions = model.predict(new_data_clean)
 ```
 

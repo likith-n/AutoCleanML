@@ -13,7 +13,7 @@ requirements = [line.strip() for line in requirements if line.strip() and not li
 
 setup(
     name="autocleanml",
-    version="0.1.0",  # Starting with beta version
+    version="0.1.0",  
     author="Likith N",
     author_email="nlikith54@gmail.com",
     description="Automated ML data cleaning and preprocessing pipeline",
