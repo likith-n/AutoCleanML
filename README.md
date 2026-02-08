@@ -1,5 +1,13 @@
 # AutoCleanML
 
+
+[![PyPI version](https://badge.fury.io/py/autocleanml.svg)](https://pypi.org/project/autocleanml/)
+[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Downloads](https://pepy.tech/badge/autocleanml)](https://pepy.tech/project/autocleanml)
+
+
+
 **Stop wasting hours cleaning data. Let AutoCleanML do it for you.**
 
 AutoCleanML automatically cleans and prepares your messy data for machine learning. Just give it your data and target column - it handles the rest.
@@ -45,7 +53,6 @@ X_train, X_test, y_train, y_test, report = cleaner.fit_transform(df)
 
 ## Installation
 
-## 📦 Installation
 
 AutoCleanML can be installed using `pip` and works seamlessly on **local machines, Jupyter Notebook, and Google Colab**.
 
@@ -425,12 +432,6 @@ if report['imbalance']['is_imbalanced']:
 
 ## Troubleshooting
 
-**Q: Getting import errors?**
-```bash
-cd AutoCleanML
-python -m pip uninstall -y autocleanml
-python -m pip install -e .
-```
 
 **Q: Model performance seems off?**
 - Check `model_type` matches your model
@@ -465,7 +466,7 @@ After cleaning with AutoCleanML:
 
 ## License
 
-MIT License - Use it however you want!
+This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
 
 ---
 
@@ -491,3 +492,41 @@ X_train, X_test, y_train, y_test, report = cleaner.fit_transform(df)
 
 # Done! Train your model now.
 ```
+## 🌟 Show Your Support
+
+If AutoCleanML helps you, please:
+- ⭐ **Star this repo** on GitHub
+- 📦 **Share** with your colleagues
+- 🐛 **Report issues** you encounter
+- 💡 **Suggest features** you'd like to see
+
+---
+
+## 📬 Contact
+
+- **Author:** Likith N
+- **Email:** nlikith54@gmail.com
+- **GitHub:** [@yourusername](https://github.com/yourusername)
+- **PyPI:** [autocleanml](https://pypi.org/project/autocleanml/)
+
+---
+
+## 🙏 Acknowledgments
+
+Built with inspiration from the data science community and frustration with repetitive preprocessing tasks.
+
+Special thanks to:
+- scikit-learn for the excellent API design
+- The Python data science ecosystem
+- Everyone who provided feedback and suggestions
+
+---
+
+
+<div align="center">
+
+**Built with passion for the data science community**
+
+[⭐ Star on GitHub](https://github.com/likith-n/AutoCleanML) | [📦 Install from PyPI](https://pypi.org/project/autocleanml/) | [📖 Read the Docs](https://github.com/likith-n/AutoCleanML)
+
+</div>
