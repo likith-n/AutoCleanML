@@ -506,7 +506,7 @@ If AutoCleanML helps you, please:
 
 - **Author:** Likith N
 - **Email:** nlikith54@gmail.com
-- **GitHub:** [@yourusername](https://github.com/yourusername)
+- **GitHub:** [@likith-n](https://github.com/likith-n)
 - **PyPI:** [autocleanml](https://pypi.org/project/autocleanml/)
 
 ---
